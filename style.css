@@ -8,3 +8,49 @@
     display: table;
     clear: both;
 }
+/*DIMENSIONI GENERALI
+*********************/
+.dim_generali{
+    width: 100vw;
+    margin: auto;
+}
+.dim_interne{
+    text-align: center;
+width: 80%;
+}
+.debug{
+    height: 60px;
+}
+/*HEADER**********
+******************/
+/*NAV*/
+nav{
+    background-color: white;
+}
+.nav_left, .nav_right{
+    line-height: 20px;
+    padding: 1rem 1rem;
+}
+
+.nav_left{
+    float: left;
+}
+.nav_right{
+    float: right;
+}
+.menu> a{
+    text-decoration: none;
+    
+}
+.menu> img{
+    padding-right: 2rem;
+}
+/*STRUTTURA HEADER*/
+
+/*MAIN************
+******************/
+/*STRUTTURA SEZZIONI*/
+
+/*FOOTER************
+********************/
+/*STRUTTURA FOOTER*/
