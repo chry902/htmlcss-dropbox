@@ -128,6 +128,53 @@ h2{
     text-align: center;
     line-height: 40px;
 }
+/*SEZIONE 3 *********/
+.cont_partner_foto{
+
+}
+.cont_foto_se3{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-image: url(./img/partner.png);
+    background-size: cover;
+}
+.cont_par_se3{
+    float: left;
+    width: 38%;
+    height: 500px;
+    margin-left: 0px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+/**SEZIONE 4****/
+.riquadro1{
+    margin: 0 8%;
+    
+   
+    width: 28%;
+    
+    float: left;
+    margin-top: 5%;
+    margin-bottom:5%
+}
+.riquadro{
+   
+    width: 28%;
+    
+    float: left;
+    margin-top: 5%;
+    margin-bottom:5%
+}
+.img_se4{
+    width: 100%;
+}
+
+
+
+
+
+
 
 /*FOOTER************
 ********************/
