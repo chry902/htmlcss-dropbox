@@ -170,6 +170,55 @@ h2{
     width: 100%;
 }
 
+/**SEZIONE 5****/
+.sponsor_riquadri{
+    background-color: deepskyblue;
+}
+.quadrati{
+    height: 318px;
+    background-color: coral;
+    margin: none;
+}
+.quadratini{
+    float: left;
+    background-color: cornflowerblue;
+    width: 10%;
+    height: 100%;
+    
+}
+.rettangolo{
+    float: left;
+    background-color: darkgray;
+    width: 59%;
+    height: 100%;
+}
+.quad_int1{
+    background-color: deeppink;
+    width: 100%;
+    height: 50%;
+}
+.quad_int{
+    background-color: rgb(20, 255, 196);
+    width: 100%;
+    height: 50%;
+}
+.porta_business{
+  background-color: hotpink;
+    height: 280px;
+}
+.porta_business> h2{
+    float: left;
+}
+.porta_business> a{
+    float: right;
+    display: inline-block;
+    margin-top: 111px;
+}
+
+
+
+
+
 
 
 
