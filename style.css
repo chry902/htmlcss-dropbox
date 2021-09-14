@@ -15,8 +15,8 @@
     margin: auto;
 }
 .dim_interne{
-    text-align: center;
-width: 80%;
+    margin: auto;
+    width: 75%;
 }
 .debug{
     height: 60px;
@@ -49,8 +49,63 @@ nav{
 
 /*MAIN************
 ******************/
-/*STRUTTURA SEZZIONI*/
 
+/*STRUTTURA SEZZIONI*/
+.titolo{
+    position: relative;
+    background-color: aquamarine;
+}
+.cont_p> img{
+    position: absolute;
+    top: 8rem;
+    right: 6rem;
+    width: 610px;
+}
+
+h1{
+    padding: 3rem 5rem;
+
+}
+.cont_p{
+    width: 250px;
+    padding-left: 5rem;
+}
+.cont_p> a{
+    padding-top: 1rem;
+}
+.cont_p> a+p{
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+#freccia{
+    padding-bottom: 3rem;
+}
+/*****SEZIONE2 COLONNE****/
+
+
+h2{
+    padding-top: 100px;
+}
+.bott_fatt{
+    
+    padding-right: 1rem;
+    padding-top: 2rem;
+}
+/***STRUTTURA SEZZ 2 COLONNE**/
+.colonne,
+ .se_col_left,
+ .se_col_middle,
+ .se_col_right{
+    background-color: burlywood;
+    width: 20%;
+    float: left;
+    height: 200px;
+
+}
+.se_col_middle{
+    margin: 0 2.5%;
+    
+}
 /*FOOTER************
 ********************/
 /*STRUTTURA FOOTER*/
