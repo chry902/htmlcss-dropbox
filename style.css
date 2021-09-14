@@ -19,7 +19,13 @@
     width: 75%;
 }
 .debug{
-    height: 60px;
+    height: 600px;
+}
+.padd1{
+    padding: 1rem 0;
+}
+.padd2{
+    padding:2rem 0;
 }
 /*HEADER**********
 ******************/
@@ -70,42 +76,59 @@ h1{
     width: 250px;
     padding-left: 5rem;
 }
-.cont_p> a{
+/**/
+.prova_gratuita{
+    display: inline-block   ;
     padding-top: 1rem;
 }
 .cont_p> a+p{
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
 }
+/**/
 #freccia{
+    display: inline-block;
     padding-bottom: 3rem;
 }
 /*****SEZIONE2 COLONNE****/
-
-
 h2{
     padding-top: 100px;
 }
 .bott_fatt{
-    
+    display: inline-block;
     padding-right: 1rem;
     padding-top: 2rem;
 }
 /***STRUTTURA SEZZ 2 COLONNE**/
-.colonne,
- .se_col_left,
- .se_col_middle,
- .se_col_right{
+.colonne{
     background-color: burlywood;
-    width: 20%;
-    float: left;
+    width: 32%;
     height: 200px;
-
+    float: left;
+    margin-top: 5%;
+    margin-bottom:5%
 }
+
 .se_col_middle{
-    margin: 0 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
+.se_col_bottom{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(75, 66, 54);
+}
+/*style colonna*/
+.head_colonna{
+    background-color: chartreuse;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
 /*FOOTER************
 ********************/
 /*STRUTTURA FOOTER*/
