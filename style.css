@@ -37,14 +37,12 @@ body{
     font-size: 13px;
 }
 .bottone{
-       
+    display: inline-block;
        color: white;
        background-color: blue;
-     
        text-decoration: none;
-       
        padding: 0.5rem;
-}
+    }   
 /*HEADER**********
 ******************/
 /*NAV*/
@@ -68,11 +66,19 @@ nav> img{
 .nav_right{
     float: right;
 }
-.menu> a{
+.menu> span{
     color: black;
     padding-left:1.0rem ;
     text-decoration: none;
-    
+}
+.menu> a{
+    padding: 0 1rem;
+    line-height: 25px;
+   margin-left: 1rem;
+   display: inline-block;
+   color: white;
+   background-color: blue;
+   text-decoration: none;
 }
 
 /*STRUTTURA HEADER*/
@@ -115,6 +121,12 @@ h1{
 }
 .colonna_titolo> p{
     padding-bottom: 2rem;
+}
+.annulla_titolo{
+    padding-top: 2rem;
+}
+#freccia{
+    font-size: 226%
 }
 
 /**/
