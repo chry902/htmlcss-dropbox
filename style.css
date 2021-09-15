@@ -37,13 +37,13 @@ body{
     font-size: 13px;
 }
 .bottone{
-    width: 214px;
-    color: white;
-    background-color: blue;
-    line-height: 22px;
-    line-height: 37px;
-    text-decoration: none;
-    text-align: center;
+       
+       color: white;
+       background-color: blue;
+     
+       text-decoration: none;
+       
+       padding: 0.5rem;
 }
 /*HEADER**********
 ******************/
@@ -74,9 +74,7 @@ nav> img{
     text-decoration: none;
     
 }
-.menu> img{
-    padding-right: 2rem;
-}
+
 /*STRUTTURA HEADER*/
 
 /*MAIN************
@@ -84,44 +82,43 @@ nav> img{
 
 /*STRUTTURA SEZZIONI*/
 .titolo{
-    position: relative;
     background-color: aquamarine;
+    position: relative;
+    
 }
-.cont_p> img{
-    position: absolute;
-    top: 17rem;
-    right: 6rem;
-    width: 800px;
+.cont_principale{
+    width: 90%;
+    margin: auto;
+   
 }
 
 h1{
-    padding: 3rem 5rem;
+    padding-bottom: 3rem;
     font-size: 75px;
 
 }
-.cont_p{
-    width: 250px;
-    padding-left: 5rem;
+.colonna_titolo, .img_titolo{
+    float: left;
+    margin-bottom: -6.5rem;
 }
+.colonna_titolo{
+      
+    width: 30%;
+}
+.img_titolo{
+    width: 70%;
+}
+.img_titolo> img{
+    width: 100%;
+    background-position: center;
+    padding-left: 2rem;
+}
+.colonna_titolo> p{
+    padding-bottom: 2rem;
+}
+
 /**/
-.prova_gratuita{
-    display: inline-block ;
-    margin-top: 2rem;
-}
-.cont_p> p{
-    width: 250%;
-    line-height: 21px;
-    font-size: 13px;
-}
-.cont_p> a+p{
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
-}
-/**/
-#freccia{
-    display: inline-block;
-    padding-bottom: 5rem;
-}
+
 /*****SEZIONE2 COLONNE****/
 h2{
     padding-top: 100px;
