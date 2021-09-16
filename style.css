@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif;
+    min-width: width 1440px; ;
 }
 .clearfix::after{
     content: "";
@@ -42,18 +43,18 @@ body{
 /*NAV*/
 nav{
     width: 100%;
-    height: 10%;
+    
     position: fixed;
     z-index: 15;
     background-color: white;
 }
 .nav_left, .nav_right{
-    line-height: 32px;
+    line-height: 21px;
     padding: 1rem 1rem;
 }
 nav> img{
     line-height: 20px;
-    padding: 1rem 0;
+    padding: 11px 0;
     float: left;
 }
 .nav_left{
@@ -70,7 +71,7 @@ nav> img{
 }
 .menu> a{
     padding: 0 1rem;
-    line-height: 25px;
+    line-height: 23px;
    margin-left: 1rem;
    display: inline-block;
    color: white;
@@ -92,6 +93,7 @@ nav> img{
 .cont_principale{
     width: 90%;
     margin: auto;
+    padding-top: 4rem;
    
 }
 
@@ -169,10 +171,24 @@ h2{
 /*style colonna*/
 .sp1{
     
-    margin-bottom: 1rem 0;
+    padding-bottom: 1rem ;
 }
 .sp2{
-    margin-bottom:2rem 0;
+    padding-bottom:2rem ;
+}
+.sp3{
+    padding-bottom: 9rem;
+}
+.altezz1{
+    padding-top:1rem;
+}
+.altezza2{
+    padding-top: 2rem;
+}
+.sottolinea{
+    border-bottom: 1px solid lightslategrey;
+    width: 53px;
+    padding-top: 1rem;
 }
 .head_colonne{
     width: 100%;
@@ -181,11 +197,16 @@ h2{
     line-height: 40px;
 }
 .raggruppamento> a{
-    padding-left:1rem ;
-    padding-right:1rem ;
+    margin-left: 27px; ;
+    padding-left:4rem ;
+    padding-right:4rem ;
 }
 .raggruppamento{
     padding-left: 1rem;
+}
+.raggruppamento> p> a{
+    color:  rgba(0, 97, 255, 1);
+    
 }
 ul> li{
     list-style: none;
