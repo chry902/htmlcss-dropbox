@@ -5,7 +5,7 @@
 }
 body{
     font-family: sans-serif;
-    min-width: width 1440px; ;
+    min-width: width 1440px; 
 }
 .clearfix::after{
     content: "";
@@ -126,13 +126,17 @@ h1{
 .annulla_titolo{
     padding-top: 2rem;
 }
-#freccia{
+.freccia{
+    color: black;
     font-size: 226%
 }
 s
 /**/
 
 /*****SEZIONE2 COLONNE****/
+.sezz_col{
+    padding-top: 7rem;
+}
 .h2_colonne{
     padding-top: 14rem;
     font-size: 56px;
@@ -213,6 +217,11 @@ s
 }
 ul> li{
     list-style: none;
+}
+li> i{
+    color: rgba(0, 97, 255, 1);
+    font-size: 13px;
+    
 }
 /*****COLONNA BOTTOM*****/
 .h3_bottom{
@@ -308,9 +317,9 @@ span> hr{
     background-color: rgba(180, 208, 231, 1);
 }
 .quadrati{
-    height: 318px;
+    height: 381px;
     background-color: coral;
-    margin: none;
+    
 }
 .quadratini{
     float: left;
@@ -435,13 +444,30 @@ span> hr{
     border-top: 1px solid grey;
     line-height: 280%;
 }
+.contain_row{
+    transition:1s;
+}
+.contain_row:hover{
+    padding:10px 10px;
+   
+    background-color: rgb(218, 230, 255);
+}
+.effetto:hover{
+    display: inline;
+}
+
 .row_ultimo{
     border-bottom: 1px solid grey;
 }
 .p_row{
     float: left;
 }
+.effetto{
+    display: none;
+}
+
 .row_freccia{
+    padding-right: 1rem;
     float: right;
     
 }
@@ -452,13 +478,14 @@ span> hr{
 /********************
 ***FOOTER************/
 footer{
+   background-color: black; 
     
 }
 .fot_dim{
     color: white;
     padding-top: 3rem;
     margin: auto;
-    background-color: black;
+  
     width: 90%;
     height: 100%;
 
