@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans',sans-serif;
     min-width: width 1440px; 
 }
 .clearfix::after{
@@ -21,7 +21,7 @@ body{
 }
 .dim_interne{
     margin: auto;
-    width: 75%;
+    width: 70%;
 }
 .debug{
     height: 600px;
@@ -36,16 +36,19 @@ body{
        color: white;
        background-color: rgba(0, 97, 255, 1);
        text-decoration: none;
-       padding: 0.5rem;
+       padding:10px 27px;
     }   
 /*HEADER**********
 ******************/
 /*NAV*/
 nav{
     width: 100%;
-    
+    padding: 1rem 0;
+    /*
     position: fixed;
+    
     z-index: 15;
+    */
     background-color: white;
 }
 .nav_left, .nav_right{
@@ -92,21 +95,21 @@ nav> img{
     
 }
 .cont_principale{
-    width: 90%;
+    width: 85%;
     margin: auto;
-    padding-top: 4rem;
+    padding-top: 8rem;
    
 }
 
 h1{
-    width: 1207px;
+    width: 100%;
     padding-bottom: 3rem;
-    font-size: 70px;
+    font-size: 100px;
 
 }
 .colonna_titolo, .img_titolo{
     float: left;
-    margin-bottom: -6.5rem;
+    margin-bottom: -5rem;
 }
 .colonna_titolo{
       
@@ -118,13 +121,13 @@ h1{
 .img_titolo> img{
     width: 100%;
     background-position: center;
-    padding-left: 2rem;
+    padding-left: 5.5rem;
 }
 .colonna_titolo> p{
     padding-bottom: 2rem;
 }
 .annulla_titolo{
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
 .freccia{
     color: black;
@@ -139,14 +142,19 @@ s
 }
 .h2_colonne{
     padding-top: 14rem;
-    font-size: 56px;
+    font-size: 41px;
 }
 
-.bottone_fatt{
-    display: inline-block;
+.fatturazione{
     padding-right: 1rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    display: inline-block;
 }
+/*
+.fatturazione> input{
+    border: 2px solid black;
+}
+*/
 .spazio1{
     margin-bottom: 1rem;
 }
@@ -155,11 +163,11 @@ s
 }
 /***STRUTTURA SEZZ 2 COLONNE**/
 .colonne{
-    border: 1px solid  rgb(158, 158, 158) ;
+    border: 1px solid  rgba(222, 222, 224, 1);
     width: 30%;
     height: 100%;
     float: left;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-bottom:5%
 }
 
@@ -199,7 +207,7 @@ s
 }
 .head_colonne{
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(222, 222, 224, 1);
     text-align: center;
     line-height: 40px;
 }
@@ -447,30 +455,41 @@ span> hr{
 .contain_row{
     transition:1s;
 }
+.row_freccia{
+    float: right;
+    padding-left: 1rem;
+}
 .contain_row:hover{
     padding:10px 10px;
-   
     background-color: rgb(218, 230, 255);
 }
-.effetto:hover{
-    display: inline;
+
+.contain_row:hover .row_freccia{
+    transform: rotate(180deg);
+    display: inline-block;
 }
+.risposta{
+    display: none;
+}
+.contain_row:hover .risposta{
+    display: block;
+}
+.risposta> p{
+    float: right;
+}
+
 
 .row_ultimo{
     border-bottom: 1px solid grey;
 }
+
+
+
 .p_row{
     float: left;
 }
-.effetto{
-    display: none;
-}
 
-.row_freccia{
-    padding-right: 1rem;
-    float: right;
-    
-}
+
 .ultimo{
     border-bottom: 1px solid grey;
 }
