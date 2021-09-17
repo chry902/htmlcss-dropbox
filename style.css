@@ -163,9 +163,9 @@ s
 }
 /***STRUTTURA SEZZ 2 COLONNE**/
 .colonne{
-    border: 1px solid  rgba(222, 222, 224, 1);
+    border: 1px solid  rgba(217, 217, 220, 1);
     width: 30%;
-    height: 100%;
+    height: 1075px;
     float: left;
     margin-top: 4%;
     margin-bottom:5%
@@ -178,18 +178,34 @@ s
     
 }
 .sez_col_bottom{
-    border: 1px solid black;
+    border: 1px solid rgba(217, 217, 220, 1);
     width: 100%;
     height: 100%;
     
 }
 /*style colonna*/
+.raggruppamento> h3{
+    font-size: 25px;
+}
+.raggruppamento> .mese{
+    color: rgba(123, 136, 148, 1);
+    
+}
+.raggruppamento> .prezzo{
+    padding-bottom: 0.5rem;
+}
+.raggruppamento> .acquista{
+    padding-top: 2rem;
+}
 .sp1{
     
     padding-bottom: 1rem ;
 }
 .sp2{
     padding-bottom:2rem ;
+}
+.sp2_0{
+    padding-bottom: 3rem;
 }
 .sp3{
     padding-bottom: 9rem;
@@ -201,9 +217,10 @@ s
     padding-top: 2rem;
 }
 .sottolinea{
-    border-bottom: 1px solid lightslategrey;
+    border-bottom: 1px solid  rgba(222, 222, 224, 1);
     width: 53px;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    
 }
 .head_colonne{
     width: 100%;
@@ -225,6 +242,8 @@ s
 }
 ul> li{
     list-style: none;
+    font-size: 14px;
+    padding-bottom: 2rem;
 }
 li> i{
     color: rgba(0, 97, 255, 1);
@@ -240,7 +259,7 @@ li> i{
     position: absolute;
     right: 2%;
     top: 8%;
-    display: inline-block;
+    padding: 0.5rem 4rem;
 }
 
 /*SEZIONE 3 *********/
@@ -249,7 +268,7 @@ li> i{
 }
 .cont_foto_se3{
     float: left;
-    width: 50%;
+    width: 585px;
     height: 500px;
     background-image: url(./img/partner.png);
     background-size: cover;
@@ -262,12 +281,13 @@ li> i{
     margin-left: 4rem;
     margin-top: 2rem;
 }
-span> hr{
-    color: rgb(158, 158, 158);
-    width: 13%;
+.cont_par_se3> h3{
+    font-size: 24px;
+    padding-bottom:1.5rem ;
 }
+
 .cont_par_se3> p{
-    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 .cont_par_se3> a{
     color: black;
@@ -278,15 +298,9 @@ span> hr{
     margin-top: 1rem;
 }
 /**SEZIONE 4****/
-.riquadro1{
+.riq_centr{
     margin: 0 8%;
-    
    
-    width: 28%;
-    
-    float: left;
-    margin-top: 5%;
-    margin-bottom:5%
 }
 .riquadro{
    
@@ -301,12 +315,13 @@ span> hr{
     height: 100%;
 }
 .business> h2{
-    padding: 2rem 0;
-    font-size: 2rem;
+    padding: 4rem 0 0;
+    font-size: 40px;
 }
 .img> h3{
-    font-size: 30px;
-    margin: 1rem 0;
+    font-size: 25px;
+    padding-bottom: 2rem;
+    
 }
 
 /**SEZIONE 5****/
