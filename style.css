@@ -56,10 +56,11 @@ nav{
     padding: 1rem 1rem;
 }
 nav> img{
-    line-height: 20px;
-    padding: 11px 0;
+    
+    padding: 11px ;
     float: left;
     padding-left: 1rem;
+    margin-right: 1rem;
 }
 .nav_left{
     float: left;
@@ -67,21 +68,23 @@ nav> img{
 
 .nav_right{
     float: right;
+    margin-right: 1rem;
 }
-.menu> span{
-    color: black;
-    padding-left:1.0rem ;
+
+.abott1{
+    margin-right: 2rem;
+    display: inline;
     text-decoration: none;
+    color: black;
 }
-.menu> a{
-    padding: 0 1rem;
-    line-height: 23px;
-   margin-left: 1rem;
-   display: inline-block;
-   color: white;
-   background-color: rgba(0, 97, 255, 1);
-   text-decoration: none;
+.a_bott{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 97, 255, 1);
+    padding: 5px 1rem;
 }
+
+
 
 /*STRUTTURA HEADER*/
 
@@ -104,7 +107,7 @@ nav> img{
 h1{
     width: 100%;
     padding-bottom: 3rem;
-    font-size: 100px;
+    font-size: 78px;
 
 }
 .colonna_titolo, .img_titolo{
@@ -133,7 +136,9 @@ h1{
     color: black;
     font-size: 226%
 }
-s
+.dim_tex_colon{
+   font-size: 14px; 
+}
 /**/
 
 /*****SEZIONE2 COLONNE****/
@@ -189,7 +194,7 @@ s
 }
 .raggruppamento> .mese{
     color: rgba(123, 136, 148, 1);
-    
+    font-size: 11px;
 }
 .raggruppamento> .prezzo{
     padding-bottom: 0.5rem;
@@ -240,15 +245,18 @@ s
 .raggruppamento> p> a{
     color:  rgba(0, 97, 255, 1);  
 }
-ul> li{
+.li_colon{
     list-style: none;
-    font-size: 14px;
-    padding-bottom: 2rem;
+    font-size: 12px;
+    padding-bottom: 1.5rem;
 }
 li> i{
     color: rgba(0, 97, 255, 1);
     font-size: 13px;
     
+}
+.none{
+    display: none;
 }
 /*****COLONNA BOTTOM*****/
 .h3_bottom{
@@ -326,10 +334,10 @@ li> i{
 
 /**SEZIONE 5****/
 .section5> h2{
-    width: 42%;
+    width: 51%;
     padding-top: 5rem;
     padding-bottom: 1rem;
-    font-size: 30px;
+    font-size: 40px;
 }
 .section5> a{
     color:  rgba(0, 97, 255, 1);
@@ -339,15 +347,18 @@ li> i{
 .sponsor_riquadri{
     background-color: rgba(180, 208, 231, 1);
 }
-.quadrati{
-    height: 381px;
+/************
+*************/
+.cont_quadrati{
+    height: 475px;
+    width: 1598px;
     background-color: coral;
     
 }
-.quadratini{
+.quadrato{
     float: left;
     background-color: cornflowerblue;
-    width: 10%;
+    width: 475px;
     height: 100%;
     
 }
@@ -355,52 +366,60 @@ li> i{
     position: relative;
     float: left;
     background-color:rgba(245, 245, 245, 1);
-    width: 60%;
+    width: 648px;
     height: 100%;
+    padding: 3rem 3rem 0rem 3rem   ;
 }
-.img_quad1{
-    position: absolute;
-    width: 13%;
-    left: 2rem;
-    top: 2rem;
-    
-}
-.parag_rett1{
-    position: absolute;
-    width: 80%;
-    left: 2rem;
-    top: 8rem;
-}
-.parag_rett2{
-    position: absolute;
-    width: 80%;
-    left: 2rem;
-    top: 15rem;
+.rett_interno{
+    margin: auto;
+    width: 90%;
 }
 
-.quad_int1{
-    position: relative;
-    width: 100%;
-    height: 50%;
+.rettangolo> span> hr{
+   
+    width: 49px;
+    border:1px solid rgba(228, 228, 230, 1);
 }
-.quad_int{
+.parag_rett1, .parag_rett2{
+    padding-top: 3rem;
+}
+.quadratini{
     position: relative;
+    float: left;
+    color: white;
+    width: 237.5px;
+    height: 237.5px;
     
-    width: 100%;
-    height: 50%;
 }
+.quadratini> img{
+    filter: invert(100);
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.img_quad {
+    width: 121px;
+    padding-bottom: 2rem;
+    
+}
+
+
+
 .porta_business{
   background-color: rgba(180, 208, 231, 1);
-    height: 280px;
+    height: 355px;
     position: relative;
 }
 .porta_business> h2{
     color: rgba(97, 8, 43, 1);
     position: absolute;
-    left: -3%;
-    top: 39%;
-    width: 40%;
-    font-size: 175%;
+    left: 2%;
+    top: 30%;
+    width: 43%;
+    font-size: 250%;
 }
 .porta_business> a{
     
@@ -409,24 +428,16 @@ li> i{
     margin-top: 112px;
     background-color: white;
     color: black;
-    width: 26%;
+    width: 30%;
     right: 0%;
 }
 
-.img_quad{
-    filter: invert(100);
-    position: absolute;
-    background-position: center;
-    width: 50%;
-    
-    left:50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
+
 .designit{
+    border: 10px solid rgba(208, 233, 205, 1);
     background-color: rgba(162, 211, 155, 1);
 }
-.lorida{
+.florida{
     background-color: rgba(0, 147, 206, 1);
 }
 .arizona{
@@ -450,29 +461,26 @@ li> i{
 
 /**SEZIONE 6***********/
 .domande{
-    padding:5rem 0 ;
+    padding:5rem 0 8rem;
 }
 .domande> h3{
-    
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+    font-size: 32px;
 }
 
 
-.row_domande{
-    line-height: 2rem;
+
+.contain_row{
+    line-height: 5rem;
+    border-top: 1px solid rgba(222, 222, 224, 1);
     
 }
-.contain_row{
-    line-height: 2rem;
-    border-top: 1px solid grey;
-    line-height: 280%;
-}
-.contain_row{
-    transition:1s;
-}
+
 .row_freccia{
+    color: black;
     float: right;
-    padding-left: 1rem;
+    padding-right: 2rem;
 }
 .contain_row:hover{
     padding:10px 10px;
@@ -483,41 +491,46 @@ li> i{
     transform: rotate(180deg);
     display: inline-block;
 }
-.risposta{
-    display: none;
+.contain_row:hover {
+    vertical-align: middle;
 }
+
 .contain_row:hover .risposta{
     display: block;
 }
-.risposta> p{
-    float: right;
+.risposta{
+    display: none;
+    text-align: center;
+    
 }
 
 
 .row_ultimo{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(222, 222, 224, 1);
 }
 
 
 
 .p_row{
     float: left;
+    display: inline;
+    font-weight: 600;
 }
 
 
 .ultimo{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgba(222, 222, 224, 1);
 }
 
 /********************
 ***FOOTER************/
 footer{
    background-color: black; 
-    
+   margin-top: 5rem;
 }
 .fot_dim{
     color: white;
-    padding-top: 3rem;
+    padding-top: 6rem;
     margin: auto;
   
     width: 90%;
@@ -533,21 +546,36 @@ footer{
 
 }
 li> h3{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 .col_foot> li{
     padding-top: 1rem;
-    list-style: none;
+    
     color: white;
+    
+}
+.col_foot> ul> li{
+    list-style: none;
 }
 .riga{
-    width: 55%;
-    padding-top: 7rem;
-    padding-bottom: 4rem;
+    width: 47%;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 
-
+.sp_05{
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+li> a{
+    text-decoration: none;
+    color: white;
+}
+.italia{
+    font-size: 13px;
+    color: rgba(85, 85, 85, 1);
+}
 
 
 
